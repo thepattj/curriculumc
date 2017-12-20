@@ -1,0 +1,3 @@
+RewriteEngine on
+RewriteCond $1 !^(index.php|robots.txt|css|js)
+RewriteRule ^(.*)$ /curriculumc/index.php/$1 [L]
